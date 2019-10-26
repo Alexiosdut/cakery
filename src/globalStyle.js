@@ -136,6 +136,7 @@ body {
   font-family: 'Signika', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  color: #222;
 }
 
 `;

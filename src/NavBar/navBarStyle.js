@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const NavBarStyle = styled.nav`
-  width: 80%;
+  width: 50%;
   margin: auto;
-  display: flex;
 
   ul {
     width: 100%;
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 
     li {
       display: inline-block;
-      padding: 0 1rem;
       cursor: pointer;
       transition: color 0.2s;
 
@@ -25,6 +25,7 @@ export const NavBarStyle = styled.nav`
         border: none;
         font-size: 0.8rem;
         font-weight: 700;
+        text-transform: uppercase;
         cursor: pointer;
       }
     }
