@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaPhoneVolume } from "react-icons/fa";
 
 // TOTAL HEIGHT OF HEADER -> 27VH
-export const InfoBox = styled.div`
+export const InfoBoxStyle = styled.div`
   height: 4vh;
   background-color: #222;
   color: #fff;
@@ -22,7 +22,7 @@ export const InfoBox = styled.div`
   }
 `;
 
-export const BrandName = styled.div`
+export const BrandNameStyle = styled.div`
   cursor: context-menu;
   height: 23vh;
   display: grid;
@@ -43,6 +43,6 @@ export const BrandName = styled.div`
   }
 `;
 
-export const PhoneIcon = styled(FaPhoneVolume)`
+export const PhoneIconStyle = styled(FaPhoneVolume)`
   margin-right: 7px;
 `;

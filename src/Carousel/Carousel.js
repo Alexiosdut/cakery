@@ -1,6 +1,6 @@
 import React from "react";
 import Swiper from "react-id-swiper";
-import { CarouselImageBox, CarouselImage } from "./carouselStyle";
+import { CarouselImage } from "./carouselStyle";
 
 import { carouselImages } from "./images";
 
@@ -20,11 +20,7 @@ function Carousel() {
     }
   };
 
-  return (
-    <CarouselImageBox>
-      <Swiper {...params}>{renderImages}</Swiper>
-    </CarouselImageBox>
-  );
+  return <Swiper {...params}>{renderImages}</Swiper>;
 }
 
 export default Carousel;

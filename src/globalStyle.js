@@ -126,7 +126,7 @@ table {
   border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Signika:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Signika:300,400,700&display=swap');
 
 * {
   box-sizing: border-box;

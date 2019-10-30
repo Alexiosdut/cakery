@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-// TOTAL HEIGHT OF NAV -> 7VH
-export const NavBarStyle = styled.div`
+// TOTAL HEIGHT OF NAVBAR -> 7VH
+export const NavBarBoxStyle = styled.div`
   position: sticky;
   top: 0;
   z-index: 2;
