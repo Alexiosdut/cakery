@@ -6,7 +6,7 @@ import { carouselImages } from "../data/images";
 
 function Carousel() {
   const renderImages = carouselImages.map((image, index) => (
-    <CarouselImage key={index} imageSrc={image.src} />
+    <CarouselImage key={index} src={image.src} alt="" />
   ));
 
   const params = {

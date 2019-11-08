@@ -1,6 +1,6 @@
 export const carouselImages = [
   {
-    src: "img/carousel/carousel-1.jpeg"
+    src: "img/carousel/carousel-1.jpg"
   },
   {
     src: "img/carousel/carousel-2.jpg"
