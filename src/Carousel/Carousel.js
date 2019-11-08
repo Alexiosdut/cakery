@@ -2,7 +2,7 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import { CarouselImage } from "./carouselStyle";
 
-import { carouselImages } from "./images";
+import { carouselImages } from "../data/images";
 
 function Carousel() {
   const renderImages = carouselImages.map((image, index) => (
@@ -15,7 +15,7 @@ function Carousel() {
     effect: "fade",
     loop: true,
     autoplay: {
-      delay: 7000,
+      delay: 5000,
       disableOnInteraction: false
     }
   };

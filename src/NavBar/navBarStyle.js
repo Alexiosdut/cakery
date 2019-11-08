@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const NavBarBoxStyle = styled.div`
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: #fff;
   height: 7vh;
 

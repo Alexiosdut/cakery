@@ -7,4 +7,5 @@ export const CarouselImage = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 1vh;
 `;
