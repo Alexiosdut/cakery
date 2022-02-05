@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 
-import Header from "./Header/Header";
-import NavBar from "./NavBar/NavBar";
-import Carousel from "./Carousel/Carousel";
-import MainContent from "./Main/MainContent";
+import Header from './Header/Header'
+import NavBar from './NavBar/NavBar'
+import Carousel from './Carousel/Carousel'
+import MainContent from './Main/MainContent'
 
-import { GlobalStyle } from "./globalStyle";
-import { BodyWrapperStyle, ContentWrapper } from "./appStyle";
+import { GlobalStyle } from './globalStyle'
+import { BodyWrapperStyle, ContentWrapper } from './appStyle'
 
 function App() {
   return (
@@ -17,12 +17,12 @@ function App() {
         <Header />
         <NavBar />
         <ContentWrapper>
-          <Carousel> </Carousel>
+          {/* <Carousel /> */}
           <MainContent />
         </ContentWrapper>
       </BodyWrapperStyle>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
