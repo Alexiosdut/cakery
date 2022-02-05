@@ -17,7 +17,7 @@ function App() {
         <Header />
         <NavBar />
         <ContentWrapper>
-          <Carousel />
+          <Carousel> </Carousel>
           <MainContent />
         </ContentWrapper>
       </BodyWrapperStyle>
