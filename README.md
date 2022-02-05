@@ -1,3 +1,3 @@
-## Cakery Store!!
+## Cakery Store
 
 SAMPLE
