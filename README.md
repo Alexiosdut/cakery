@@ -10,8 +10,4 @@ HELLO2
 EEEEE
 OOOOO
 dfdfdf
-<<<<<<< Updated upstream
 svfsdfsdfsdfsd
-=======
-dfdfd
->>>>>>> Stashed changes
