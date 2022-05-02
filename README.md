@@ -11,4 +11,8 @@ EEEEE
 OOOOO
 dfdfdf
 svfsdfsdfsdfsd
+<<<<<<< Updated upstream
 fdfdfdf
+=======
+dfdfdf
+>>>>>>> Stashed changes
